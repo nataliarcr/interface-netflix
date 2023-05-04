@@ -8,6 +8,7 @@ body{
     margin: 0;
     box-sizing: border-box; /*não sair de dentro da borda*/
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 .navbar{
     width: 100%;
@@ -23,7 +24,6 @@ body{
     margin: 10px;
     box-sizing: border-box;
 }
-
 header nav a{
     text-decoration: none;
     color: #AAA;
@@ -33,4 +33,25 @@ header nav a{
 
 header nav a:hover{
     color: #fff;
+}
+
+/*container principal*/
+.container-principal{
+    font-size: 20px;
+    background: linear-gradient(rgb(0,0,0.50), rgb(0,0,0.50));
+    background-image: url(https://www.digitaltrends.com/wp-content/uploads/2012/07/breaking-bad.jpg?resize=1200%2C630&p=1);
+    height: 500px;
+    background-size: cover;
+    margin: 0;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.botoes{
+    margin: 15px;
+}
+.info-filmes{
+    
 }
