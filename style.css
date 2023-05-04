@@ -1,0 +1,36 @@
+:root{
+    --vermelho: rgb(190, 0, 0);
+    --preta: black;
+}
+
+body{
+    background-color: rgb(34, 34, 34);
+    margin: 0;
+    box-sizing: border-box; /*não sair de dentro da borda*/
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: var(--preta);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center; /*alinha os elementos verticalmente*/
+    justify-content: space-between; /* alinha os elementos na horizontal  */
+}
+#logo-superior{
+    height: 60%;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin: 10px;
+    align-items: center;
+}
+
+header nav a:hover{
+    color: #fff;
+}
